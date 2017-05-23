@@ -9,7 +9,8 @@ int add(int a, int b)
 int sub(int a, int b)
 {
     printf("TODO: sub\n");
-    return -1;
+    int num = a-b;
+    return num;
 }
 
 int mult(int a, int b)
